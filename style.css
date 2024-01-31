@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(58, 58, 61);
+    color: rgb(255,255,255);
+    font-family: arial;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(87,87,89);
+    width: 99vw;
+    top: 0;
+    left: 0;
+    height: 6vh;
+    margin-left: 0%;
+    justify-content: center;
+}
+
+nav a {
+    color: rgb(106, 134, 187);
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    justify-content: center;
+    line-height: 50%;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
